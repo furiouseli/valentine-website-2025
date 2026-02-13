@@ -5,11 +5,11 @@
 const CONFIG = {
     // Your Valentine's name that will appear in the title
     // Example: "Jade", "Sarah", "Mike"
-    valentineName: "Fatima!",
+    valentineName: "Fatima",
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
-    pageTitle: "Will You Be My Valentine? 💝",
+    pageTitle: "Will You Be My Valentine? HABIBTI 💝",
 
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
@@ -24,7 +24,7 @@ const CONFIG = {
         first: {
             text: "Do you like me?",                                    // First interaction
             yesBtn: "Yes",                                             // Text for "Yes" button
-            noBtn: "No, you gay asf niga",                                               // Text for "No" button
+            noBtn: "You're Gey i dont like you",                                               // Text for "No" button
             secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
         },
         second: {
@@ -78,7 +78,7 @@ const CONFIG = {
     music: {
         enabled: true,                     // Music feature is enabled
         autoplay: true,                    // Try to autoplay (note: some browsers may block this)
-        musicUrl: "https://res.cloudinary.com/dncywqfpb/video/upload/v1738399057/music_qrhjvy.mp3", // Music streaming URL
+        musicUrl: "https://res.cloudinary.com/dinoz7kgy/video/upload/BTS_%EB%B0%A9%ED%83%84%EC%86%8C%EB%85%84%EB%8B%A8_-_Boy_With_Luv_%EC%9E%91%EC%9D%80_%EA%B2%83%EB%93%A4%EC%9D%84_%EC%9C%84%ED%95%9C_%EC%8B%9C_feat._Halsey_Color_Coded_Lyrics_EngRomHan%EA%B0%80%EC%82%AC_sqa4ir.mp3", // Music streaming URL
         startText: "🎵 Play Music",        // Button text to start music
         stopText: "🔇 Stop Music",         // Button text to stop music
         volume: 0.5                        // Volume level (0.0 to 1.0)
