@@ -67,6 +67,90 @@
             <p class="celebration-text" id="celebrationMessage"></p>
             <p class="celebration-text" id="celebrationEmojis"></p>
         </div>
+
+        <!-- Gift Choice Buttons (appears after celebration) -->
+<div class="extra-section hidden" id="giftChoices">
+    <h2>Fatima, my love... your gifts await! 💝✨</h2>
+    <p>Pick one to open right now... 😘</p>
+    
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 25px; margin: 40px 0;">
+        <button class="cute-btn gift-btn" onclick="openGift('video1')">Video 1 🎥</button>
+        <button class="cute-btn gift-btn" onclick="openGift('video2')">Video 2 🎥</button>
+        <button class="cute-btn gift-btn" onclick="openGift('comic')">Our Comic Story 📖💕</button>
+    </div>
+</div>
+
+<!-- Video 1 Content -->
+<div class="extra-section hidden" id="video1">
+    <h2>Video 1 – [NIGA WILL YOU BE MY VALENTINE?] 💖</h2>
+    <video width="100%" controls autoplay loop style="max-width: 700px; border-radius: 15px; box-shadow: 0 8px 25px rgba(255,105,180,0.3);">
+        <source src="https://i.imgur.com/xPuFWMJ.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <p>["Pretty Please? !"]</p>
+    <button class="cute-btn" onclick="openGift('giftChoices')">Back to Gifts</button>
+</div>
+
+<!-- Video 2 Content -->
+<div class="extra-section hidden" id="video2">
+    <h2>Video 2 – [MY GAMING DUO <3] 💖</h2>
+    <video width="100%" controls autoplay loop style="max-width: 700px; border-radius: 15px; box-shadow: 0 8px 25px rgba(255,105,180,0.3);">
+        <source src="https://i.imgur.com/iVZV1Kt.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <p>["You make every day fun and unforgettable!"]</p>
+    <button class="cute-btn" onclick="openGift('giftChoices')">Back to Gifts</button>
+</div>
+
+<!-- Comic Content (35 panels vertical scroll) -->
+<div class="extra-section hidden" id="comic">
+    <h2>Our Special Comic – Made Just for You 📖💞</h2>
+    <p>Scroll down slowly to read it like your favorite manga! (Best on phone ♡)</p>
+    
+    <div style="max-width: 650px; margin: 0 auto; text-align: center;">
+        <!-- Paste your 35 panel links here -->
+        <img src="https://i.imgur.com/Uwd601j.jpeg" alt="Panel 1" style="width: 100%; display: block; margin: 0 0 15px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+        <img src="https://i.imgur.com/t7O2xzB.jpeg" alt="Panel 2" style="width: 100%; display: block; margin: 0 0 15px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+        <img src="https://i.imgur.com/O7DWPFx.png" alt="Panel 3" style="width: 100%; display: block; margin: 0 0 15px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+        <img src="https://i.imgur.com/pMNSqaV.jpeg" alt="Panel 4" style="width: 100%; display: block; margin: 0 0 15px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+        <img src="https://i.imgur.com/34vSxNH.jpeg" alt="Panel 5" style="width: 100%; display: block; margin: 0 0 15px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+        <img src="https://i.imgur.com/rcWjyaK.jpeg" alt="Panel 6" style="width: 100%; display: block; margin: 0 0 15px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+        <img src="https://i.imgur.com/8JQY9oO.jpeg" alt="Panel 7" style="width: 100%; display: block; margin: 0 0 15px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+        <img src="https://i.imgur.com/gbModrq.jpeg" alt="Panel 8" style="width: 100%; display: block; margin: 0 0 15px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+        <img src="https://i.imgur.com/T0Fnqku.png" alt="Panel 9" style="width: 100%; display: block; margin: 0 0 15px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+        <img src="https://i.imgur.com/mvs2I8S.jpeg" alt="Panel 10" style="width: 100%; display: block; margin: 0 0 15px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+        <img src="https://i.imgur.com/yDqBiCO.jpeg" alt="Panel 11" style="width: 100%; display: block; margin: 0 0 15px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+        <img src="https://i.imgur.com/vaOa5XC.jpeg" alt="Panel 12" style="width: 100%; display: block; margin: 0 0 15px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+        <img src="https://i.imgur.com/v1qXC4c.jpeg" alt="Panel 13" style="width: 100%; display: block; margin: 0 0 15px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+        <img src="https://i.imgur.com/YjAi6rF.jpeg" alt="Panel 14" style="width: 100%; display: block; margin: 0 0 15px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+        <img src="https://i.imgur.com/rD8jWkN.jpeg" alt="Panel 15" style="width: 100%; display: block; margin: 0 0 15px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+        <img src="https://i.imgur.com/PxQciVL.jpeg" alt="Panel 16" style="width: 100%; display: block; margin: 0 0 15px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+        <img src="https://i.imgur.com/4D1zMGd.jpeg" alt="Panel 17" style="width: 100%; display: block; margin: 0 0 15px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+        <img src="https://i.imgur.com/UG5O3zo.jpeg" alt="Panel 18" style="width: 100%; display: block; margin: 0 0 15px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+        <img src="https://i.imgur.com/0UD6R7G.jpeg" alt="Panel 19" style="width: 100%; display: block; margin: 0 0 15px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+        <img src="https://i.imgur.com/JKMS9I7.jpeg" alt="Panel 20" style="width: 100%; display: block; margin: 0 0 15px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+        <img src="https://i.imgur.com/F3D64GT.jpeg" alt="Panel 21" style="width: 100%; display: block; margin: 0 0 15px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+        <img src="https://i.imgur.com/4sETwAZ.png" alt="Panel 22" style="width: 100%; display: block; margin: 0 0 15px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+        <img src="https://i.imgur.com/xvMTZsu.jpeg" alt="Panel 23" style="width: 100%; display: block; margin: 0 0 15px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+        <img src="https://i.imgur.com/87Y6PJD.jpeg" alt="Panel 24" style="width: 100%; display: block; margin: 0 0 15px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+        <img src="https://i.imgur.com/HJQN9j5.jpeg" alt="Panel 25" style="width: 100%; display: block; margin: 0 0 15px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+        <img src="https://i.imgur.com/Hp7gwJx.jpeg" alt="Panel 26" style="width: 100%; display: block; margin: 0 0 15px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+        <img src="https://i.imgur.com/VULbs0b.jpeg" alt="Panel 27" style="width: 100%; display: block; margin: 0 0 15px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+        <img src="https://i.imgur.com/FduIAo4.jpeg" alt="Panel 28" style="width: 100%; display: block; margin: 0 0 15px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+        <img src="https://i.imgur.com/W3vDcax.jpeg" alt="Panel 29" style="width: 100%; display: block; margin: 0 0 15px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+        <img src="https://i.imgur.com/7K9j0Dt.png" alt="Panel 30" style="width: 100%; display: block; margin: 0 0 15px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+        <img src="https://i.imgur.com/rMbWYRg.png" alt="Panel 31" style="width: 100%; display: block; margin: 0 0 15px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+        <img src="https://i.imgur.com/EZuak66.jpeg" alt="Panel 32" style="width: 100%; display: block; margin: 0 0 15px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+        <img src="https://i.imgur.com/HvVvWs5.jpeg" alt="Panel 33" style="width: 100%; display: block; margin: 0 0 15px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+        <img src="https://i.imgur.com/kQWz4Jq.jpeg" alt="Panel 34" style="width: 100%; display: block; margin: 0 0 15px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+        <img src="https://i.imgur.com/zBSVu8N.jpeg" alt="Panel 35" style="width: 100%; display: block; margin: 0 0 15px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+        <!-- ... repeat this line 33 more times with your other links ... -->
+        <!-- Last one: -->
+    </div>
+    
+    <p>The end... I love you so much! ♾️</p>
+    <button class="cute-btn" onclick="openGift('giftChoices')">Back to Gifts</button>
+</div>
     </div>
 
     <!-- Scripts -->
