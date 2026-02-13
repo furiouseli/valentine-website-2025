@@ -179,13 +179,16 @@ function celebrate() {
     const celebration = document.getElementById('celebration');
     celebration.classList.remove('hidden');
     
-    // Set celebration messages
     document.getElementById('celebrationTitle').textContent = config.celebration.title;
     document.getElementById('celebrationMessage').textContent = config.celebration.message;
     document.getElementById('celebrationEmojis').textContent = config.celebration.emojis;
     
-    // Create heart explosion effect
     createHeartExplosion();
+    
+    setTimeout(() => {
+        celebration.classList.add('hidden');
+        document.getElementById('giftChoices').classList.remove('hidden');
+    }, 5000);
 }
 
 // Create heart explosion animation
@@ -240,3 +243,12 @@ function setupMusicPlayer() {
         }
     });
 } 
+
+function openGift(id) {
+    ['giftChoices', 'video1', 'video2', 'comic'].forEach(sec => {
+        const el = document.getElementById(sec);
+        if (el) el.classList.add('hidden');
+    });
+    const target = document.getElementById(id);
+    if (target) target.classList.remove('hidden');
+}
