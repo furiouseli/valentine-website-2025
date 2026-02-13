@@ -316,3 +316,17 @@ h2 {
     transform: scale(1.05);
     background: var(--secondary-color);
 } 
+
+.gift-btn {
+    font-size: 1.3em;
+    padding: 15px 30px;
+    min-width: 220px;
+}
+
+.extra-section {
+    animation: fadeIn 1.2s ease-out;
+}
+
+.extra-section video, .extra-section img {
+    margin: 20px auto;
+}
